@@ -1,0 +1,168 @@
+<!--1) (<em>)->for italic 
+    2) (<strong> -> for bold)
+    3) (a + tab =<a href="") -> creates link
+    4) (create new file to link websites)
+    5) (create new folder to link pictures)
+    6) (<table></table>) -> to create a table
+    7) (<tr></<tr>) -> table row
+    8) (<td></td>) -> table data(cells)
+    9) (<thead>) -> table head(by default bold)
+    10) (<tbody>) -> table body
+    11) (<tfoot>) -> table foot
+    12) (cellspacing) -> gapes between the cells
+    13) (<label>) -> we can write any thing its just like cout in c++ in forms
+    14) (<input>) -> gets the required data/information in forms
+
+      
+-->
+<!DOCTYPE html>  
+<html>
+    <head>
+        <body>
+           <title>
+            Mini project
+           </title>
+           <table cellspacing="20">
+                <tr>
+                    <td><img src="pic/2.webp"></td>
+                    <td><h1>
+                        SANJAY S SRIVATHSA
+                    </h1>
+                    <p><em>Student of <strong><u><a href="https://en.wikipedia.org/wiki/RNS_Institute_of_Technology">RNSIT</a> </u></strong> </em></p></td>
+                </tr>
+           </table>
+           
+           
+            <p>RNS Institute of Technology, familiar as RNSIT was established in the year 2001. It is the brainchild of Dr. R. N. Shetty, well known industrialist, and a great philanthropist. The institution was established with a sole purpose of imparting quality education in Engineering, Technology and Management. Being one of the premier engineering colleges in the country RNSIT is marching towards placing itself in the global map by excelling in academics and placements.
+
+                Lush green campus, state of the art infrastructure, well equipped laboratories, hundreds of activities, numerous new initiatives, consistent VTU ranks, path breaking placements, cultural extravaganza, Sports events, 4000 + students and 300 + faculty – with all these RNSIT has become dream destination for engineering aspirants across the country.</p>
+            <hr>
+            <h2><u>EDUCATION</u></h2>
+            <br>
+            <p><u><strong>1)SCHOOL:</strong></u>Auden High School(<em>Girinagara</em>)</p>
+            <p><u><strong>2)PUC:</strong></u>Kumarance(<em>Padmanabanagara</em>)</p>
+            <p><u><strong>1)ENGINEERING:</strong></u>RNS Institute of Technology(<em>RR Nagara</em>)</p>
+            <br>
+            <hr>
+            <br>
+            <ul>
+                <li>Admin Block 3</li>
+                    <ul><li> 2nd floor</li>
+                        <ul>
+                            <li>3rd room(<em>room no:201</em>)</li>
+                        </ul>
+                    </ul>
+            </ul>
+            <br>
+            <hr>
+            <a href="e1.html">My Hobbies</a>
+            <br>
+            <a href="ach.html">Achivements</a>
+            <br>
+            <a href="new.html">Non Achivements</a>
+            <br>
+            <hr>
+            <table border ="1">
+                <thead>
+                    <tr>
+                        <th>YEAR</th>
+                        <th>WINNERS</th>
+                    </tr>
+                </thead>                                      
+                <tbody>
+                    
+                        <td>2007</td>
+                        <td>INDIA</td>
+                </tbody>
+                <tbody>
+                        <td>2019</td>
+                        <td>AUSTRALIA</td>
+                   </tbody>
+                
+            </table>
+
+<!--Assignment 1 begin-->
+
+            <h3>SKILLS</h3>
+            <table border="10" cellspacing="10">  <!--Main table begining-->
+                <tr>    <!--table row beging-->
+                    <td>  <!--table data 1-->
+                        <table cellspacing="10" >    <!--1st table as first data member because its in between data-->
+                            <tr>    <!--row 1-->
+                                <td>studying </td>    <!--data 1-->
+                                <td>⭐</td>          <!--data 2-->
+                            </tr>   <!--row 1 end-->
+                            <tr>   <!--row 2-->
+                                <td>playing</td>      <!--data 1-->
+                                <td>⭐⭐</td>        <!--data 2-->
+                            </tr>  <!--row 2 end-->
+                        </table>   <!--1st table end-->
+                    </td>    <!--table data 1 end-->
+                    <td>     <!--table data 2-->
+                        <table cellspacing="10">    <!--2nd table as second data member because its in between data-->
+                            <tr>       <!--row 1-->
+                            <td>meditating </td>   <!--data 1-->
+                            <td>⭐⭐⭐</td>       <!--data 2-->
+                            </tr>     <!--row 1 end-->
+                            <tr>      <!--row 2-->
+                            <td>gaming</td>      <!--data 1-->
+                            <td>⭐⭐⭐⭐</td>  <!--data 2-->
+                            </tr>    <!--row 2 end-->
+                        </table>  <!--2nd table end-->
+                    </td>    <!--table data 2 end-->
+                    
+                </tr>  <!--table row end-->
+            </table>   <!--Main table end-->
+<!--Assignment 1 end-->
+<!-- FORMS -->
+            <form action="">
+                <label for="">Your name:</label>
+                <input type="text" >
+                <br>
+                <input type="color" >
+                <br>
+                <input type="submit" name="">
+                <br>
+                <input type="checkbox" >
+                <br>
+                <input type="button" >
+                <br>
+                <input type="date" >
+                <br>
+                <input type="datetime-local" >
+                <br>
+                <label>Email:</label>
+                <input type="email" >
+                <br>
+                <input type="file" >
+                <br>
+                <input type="month" >
+                <br>
+                <label>Number:</label>
+                <input type="number" >
+                <br>
+                <label>password:</label>
+                <input type="password" >
+                <br>
+                <label>radio:</label>
+                <input type="radio" >
+                <br>
+                <label>range:</label>
+                <input type="range" >
+                <br>
+            </form>
+            <hr>
+            <br>
+            <form action="mailto:srivathasa2003@gmail.com" method="post" enctype="text/plain">
+                <label>Your name:</label>
+                <input type="text" name="YourName" id=""><br>
+                <label>Your Email:</label>
+                <input type="email" name="YourEmail" id=""><br>
+                <label>Your Message:</label><br>
+                <textarea name="YourMEssage" id="" cols="10" rows="10"></textarea><br>
+                <input type="submit">
+            </form>
+        </body>
+    </head>
+</html>
+                                                                                                ⭐
